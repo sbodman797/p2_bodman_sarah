@@ -1,0 +1,580 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.87rem;
+  color: #05457d;
+  padding: 0 5% 0 5%;
+}
+
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: .85rem;
+  color: #05457d;
+  letter-spacing: .5px;
+  padding: 3% 0 5% 0;
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+  color: #05457d;
+  padding: 5% 0 10% 0;
+}
+
+h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8rem;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.03rem;
+}
+
+.button{
+	font-family: 'Playfair Display', serif;
+	font-size: 1rem;
+  letter-spacing: .5px;
+  padding: 2.5% 0 2.5% 0;
+  background-color: #ffffff;
+  width:35%;
+  text-align: center;  
+  margin-bottom: 5%;
+}
+
+
+main .button{
+   color:#05457d;
+   text-decoration: none;
+}
+
+.tea .button{
+  color:#75bad6;
+}
+
+a{
+   text-decoration: none;
+}
+
+
+/* ********** Header ********** */
+
+header{
+	background-image:url(images/site/main-image.jpg);
+  background-color: #75bad6;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+}
+
+
+header img{
+	width: 20%;
+  max-width: 100px;
+  margin:5% 5% 3% 5%;
+}
+
+
+.title {
+  background-color: #ffffff;
+  text-align: center;
+  width: 100%; 
+}
+
+.desktop-menu {
+	display: none;
+}
+
+
+
+
+/* ******* HAMBURGER MENU STYLES ******* */
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  margin:0% 5% 0% 0%;
+  color:#05457d;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  margin:0% 5% 0% 0%;
+  color:#05457d;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+/* ******* END HAMBURGER MENU STYLES ******* */
+
+
+
+
+
+main{
+  background-color: #05457d;
+  color: #ffffff;
+  padding: 15% 5% 5% 5%;
+
+}
+
+main h4{
+  padding-bottom: 8%;
+}
+
+main p{
+  padding-bottom: 8%;
+}
+
+
+.mockup img{
+  width:100%;
+  max-width:4000px;
+}
+
+
+.tea{
+  background-color: #75bad6;
+  color: #ffffff;
+  padding: 15% 5% 5% 5%;
+}
+
+section p{
+  padding-bottom: 8%;
+}
+
+footer{
+  background-color:#05457d;
+  color: #ffffff;
+  padding:5%;
+}
+
+footer ul{
+  list-style-type: none;
+  text-align:center;
+  display:flex;
+  justify-content: center;
+}
+
+footer li{
+  display:inline;
+}
+
+footer li img{
+  width: 30%;
+}
+
+footer p{
+  font-size:.8rem;
+  text-align:center;
+  padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ****************** Tea ********************* */
+
+.tea-header{
+  background-image:url(images/tea/tea-head.jpg);
+}
+
+.tea img{
+  width: 100%;
+  max-width: 3000px;
+  padding-top: 5%;
+
+}
+
+
+
+
+
+
+
+
+/* ****************** Book ********************* */
+
+.book-header{
+  background-image:url(images/book/book-head.jpg);
+}
+
+.tea img{
+  width: 100%;
+  padding-top: 5%;
+}
+
+.chapter-one p{
+  line-height: 1.6;
+}
+
+.tea h4{
+  padding-bottom: 8%;
+}
+
+
+
+
+
+
+/* ****************** Contact ********************* */
+
+.contact-header{
+  background-image:url(images/contact/contact-head.jpg);
+}
+
+
+.contact-info ul{
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.03rem;
+}
+
+.contact-info a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.tea figure img{
+  width: 100%;
+  padding-top: 0%;
+}
+
+figure img{
+  width: 1000px;
+  padding:0%;
+}
+
+figcaption{
+  font-size: .75rem;
+  font-style: italic;
+  text-align: center; 
+}
+
+aside p{
+  padding-top:5%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.03rem;
+}
+
+.portfolio {
+  padding-top: 5%;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 305px){
+    .chapter-one p{
+      font-size: 1rem;
+    }
+  }
+
+
+
+/* ******** start 365 ********** */
+
+@media (min-width: 365px){
+  h1{
+    font-size: 2rem;
+    padding:0 10% 0 10%;
+  }
+
+}
+
+
+
+
+
+
+/* ******** start 380 ********** */
+
+@media (min-width: 380px){
+  h1{
+    padding:0 16% 0 16%;
+  }
+
+
+  footer li img{
+  width: 20%;
+}
+}
+
+
+
+
+
+
+/* ******** start 420 ********** */
+
+@media (min-width: 420px){
+  h1{
+    padding:0 19% 0 19%;
+  }
+
+  footer li img{
+    width: 15%;
+  }
+}
+
+
+
+
+
+
+/* ******** start 517 ********** */
+
+@media (min-width: 517px){
+  h1{
+    padding:0 5% 0 5%;
+  }
+
+  header {
+    height: 80vh;
+  }
+
+  header img{
+    margin:3% 5% 2% 5%;
+  }
+
+  h3{
+     padding: 2.5% 0 2% 0;
+  }
+
+  .title {
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+  }
+
+  footer{
+    padding:2%;
+  }
+
+  footer p{
+    padding-top: 2%;
+  }
+
+
+  footer li img{
+    width: 12%;
+  }
+
+}
+
+
+
+
+
+/* ******** start 620 ********** */
+
+@media (min-width: 620px){
+   header img{
+    margin:1.5% 5% 1.5% 5%;
+  }
+
+  footer li img{
+    width: 10%;
+  }
+
+
+  .desktop-menu{
+    display: inline-block;
+    text-align: right;
+    padding: 1%;
+    width: 100%;
+  }
+
+  .flex-container {
+    display: flex;
+    align-items:center;
+  }
+
+  .flex-container a{
+    width:100%;
+  }
+
+  .menu, .hamburger, .cross{
+    display: none;
+  }
+
+  .desktop-menu ul{ 
+    list-style-type: none;
+  }
+
+
+  .desktop-menu ul li{
+    display: inline;
+    padding: 5%;
+  }
+
+  .desktop-menu ul li a{
+    color: #05457d;
+    text-decoration: none;
+  }
+
+  .flex-contact{
+    display: flex;
+  }
+
+  .flex-contact main{
+    width: 60%;
+    border-bottom: solid #ffffff 5px;
+  }
+
+  .flex-contact aside{
+    width: 40%;
+    border-bottom: solid #ffffff 5px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/* ******** start 800 ********** */
+
+@media (min-width: 800px){
+  header {
+    height: 80vh;
+  }
+
+  header img{
+    margin:1.3% 5% 1.3% 5%;
+  }
+
+
+  footer li img{
+    width: 7%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ******** start 1024 ********** */
+
+@media (min-width: 1024px){
+
+  header {
+    height: 90vh;
+  }
+
+  header img{
+    margin:1.5% 5% 1.5% 5%;
+  }
+
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 1.2rem;
+  }
+
+  h3{
+    font-size:1.2rem;
+  }
+
+  h4{
+    font-size:2.5rem;
+  }
+
+  p{
+    font-size:1.3rem;
+  }
+
+  .button{
+    font-size:1.3rem;
+    width:20%;
+    padding: 1% 0 1% 0;
+  }
+
+  footer li img{
+    width: 8%;
+  }
+
+  #container{
+    margin: auto;
+    width: 1200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
