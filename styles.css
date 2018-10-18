@@ -94,6 +94,8 @@ header img{
 
 .title {
   background-color: #ffffff;
+  border-left: solid 1px #dcdcdc;
+  border-right:solid 1px #dcdcdc;
   text-align: center;
   width: 100%; 
 }
