@@ -481,6 +481,10 @@ aside p{
     text-decoration: none;
   }
 
+  .desktop-menu ul li a:hover{
+    color: #75bad6;
+  }
+
   .flex-contact{
     display: flex;
   }
