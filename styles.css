@@ -72,6 +72,17 @@ a{
    text-decoration: none;
 }
 
+main a:hover .button{
+  background-color: #75bad6;
+  color: #ffffff;
+}
+
+.tea a:hover .button{
+  background-color: #05457d;
+  color: #ffffff;
+}
+
+
 
 /* ********** Header ********** */
 
