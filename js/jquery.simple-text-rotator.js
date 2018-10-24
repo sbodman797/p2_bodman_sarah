@@ -151,11 +151,11 @@
           break;
           
           case 'fade':
-            el.fadeOut(settings.speed, function() {
-              index = $.inArray(el.text(), array)
-              if((index + 1) == array.length) index = -1
-              el.text(array[index + 1]).fadeIn(settings.speed);
-            });
+            el.stop().fadeOut(settings.speed / 2, function() { 
+            index = $.inArray(el.text(), array)
+            if((index + 1) == array.length) index = -1
+            el.text(array[index + 1]).stop().fadeIn(settings.speed / 2);
+          });
           break;
         }
       };
